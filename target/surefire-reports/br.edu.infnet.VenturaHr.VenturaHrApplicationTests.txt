@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: br.edu.infnet.VenturaHr.VenturaHrApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.074 s <<< FAILURE! - in br.edu.infnet.VenturaHr.VenturaHrApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: br.edu.infnet.VenturaHr.model.Vaga.candidato
+Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non collection as a @OneToMany, @ManyToMany or @CollectionOfElements: br.edu.infnet.VenturaHr.model.Vaga.candidato
+
