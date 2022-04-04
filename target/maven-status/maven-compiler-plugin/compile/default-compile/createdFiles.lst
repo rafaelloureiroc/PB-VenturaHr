@@ -1,0 +1,13 @@
+br\edu\infnet\VenturaHr\controller\AcessoController.class
+br\edu\infnet\VenturaHr\model\Candidato.class
+br\edu\infnet\VenturaHr\model\Vaga.class
+br\edu\infnet\VenturaHr\controller\UsuarioController.class
+br\edu\infnet\VenturaHr\controller\VagaController.class
+br\edu\infnet\VenturaHr\service\UsuarioService.class
+br\edu\infnet\VenturaHr\model\Empresa.class
+br\edu\infnet\VenturaHr\model\Criterio.class
+br\edu\infnet\VenturaHr\repository\UsuarioRepository.class
+br\edu\infnet\VenturaHr\repository\VagaRepository.class
+br\edu\infnet\VenturaHr\VenturaHrApplication.class
+br\edu\infnet\VenturaHr\service\VagaService.class
+br\edu\infnet\VenturaHr\model\Usuario.class
